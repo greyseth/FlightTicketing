@@ -8,7 +8,7 @@ public interface Dao<T, I> {
 
     Collection<T> getAll();
 
-    Optional<T> save(T t);
+    Optional<I> save(T t);
 
     void update(T t);
 
